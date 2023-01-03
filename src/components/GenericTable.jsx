@@ -72,10 +72,13 @@ const GenericTable = () => {
 
     const { getTableProps, getTableBodyProps, headerGroups, rows, prepareRow, getRowProps, state: {expanded, selectedRowIds}, setGlobalFilter} = tableInstance
 
+    //rows.length should possible be rendered along with some form of pagination. Check the pagination
 
     console.log("rowsLength", rows.length);
 
     console.log("tdValue", tdValue);
+
+    console.log("headerGroups", headerGroups);
 
     // console.log("tdValueArray", tdValueArray);
 

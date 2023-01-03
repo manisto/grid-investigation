@@ -35,6 +35,8 @@ export const COLUMNS = [
                       expandedRow && row.id.split(".")[0] === expandedRow.id
                     );
 
+        
+
                     if (isSubItemOfRow) {
                       const expandedSubItem = expandedRow.subRows.find(
                         subRow => subRow.isExpanded
